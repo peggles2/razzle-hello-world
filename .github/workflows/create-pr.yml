@@ -32,7 +32,7 @@ jobs:
         DEST_DIR: "${GITHUB_HEAD_REF}"
     - uses: mshick/add-pr-comment@v1
       with:
-        message: "👀 Preview deployment is now available - https://hello-static.ussba.io/${{ github.head_ref }}/index.html"
+        message: "👀 Preview deployment is now available - https://disaster-loan.ussba.io/${{ github.head_ref }}/"
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
         allow-repeats: false
